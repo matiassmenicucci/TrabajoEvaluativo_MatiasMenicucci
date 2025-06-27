@@ -9,7 +9,7 @@ namespace ProyectoArticulos
         {
             List<string> ArticulosLocal1 = new List<string>();
 
-            
+            // Ejemplo de uso de las funciones
             bool resultadoAgregar = Funciones.Agregar_Producto(ArticulosLocal1, "Lapicera");
             bool resultadoBorrar = Funciones.Borrar_Producto(ArticulosLocal1, "Lapicera");
             Funciones.Mostrar_todos_Productos(ArticulosLocal1);
